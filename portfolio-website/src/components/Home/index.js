@@ -7,8 +7,6 @@ import React, { useState, useEffect } from 'react'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    // const nameArray = ['r', 'e', 'n', 'd', 'a', 'n']
-    // const jobArray = ['w', 'e', 'b', ' ', ]
     const nameArray = 'rendan'.split('')
     const jobArray = 'web developer.'.split('')
 
