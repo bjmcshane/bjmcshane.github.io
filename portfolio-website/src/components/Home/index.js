@@ -7,7 +7,7 @@ import React, { useState, useEffect } from 'react'
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = 'rendan'.split('')
+    const nameArray = ' Brendan.'.split('')
     const jobArray = 'web developer.'.split('')
 
     // useEffect(() => {
@@ -19,6 +19,8 @@ const Home = () => {
             // console.log(e)
         // }
     // }, [])
+                    // <img src={LogoTitle} alt='developer' />
+                    // <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
     
 
     return (
@@ -26,11 +28,10 @@ const Home = () => {
             <div className='text-zone'>
                 <h1>
                     <span className={letterClass}>H</span>
-                    <span className={`${letterClass} _12`}>i</span>
+                    <span className={`${letterClass} _12`}>i,</span>
                     <br /> 
                     <span className={`${letterClass} _13`}>I</span>
                     <span className={`${letterClass} _14`}>'m</span>
-                    <img src={LogoTitle} alt='developer' />
                     <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}/>
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>

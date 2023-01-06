@@ -24,9 +24,24 @@ const About = () => {
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={aboutArr} idx={15} />
                 </h1>
-                <p>My name's Brendan!</p>
-                <p>I'm a recent Indiana University graduate</p>
-                <p>Exit paragraph</p>
+                <p>
+                    My name's Brendan McShane, I'm a recent graduate from Indiana University, where I've
+                    received both my Bachelor's and Master's degrees in Computer Science. 
+                </p>
+                <p>
+                    A primary focus of mine during my tenure at IU was machine learning and artificial intelligence.
+                    I've coded neural networks from scratch, designed CNNs to diagnose COVID-19 in CT scans, developed
+                    time series predictions to predict next day stock prices, and much more. During my studies, I also picked
+                    up enough web development skills to enable me to code this website from scratch, and hey, I think it looks
+                    pretty good!
+                </p>
+                <p>
+                    Anyways, thanks for taking the time to read this little blurb about me. Please feel free to take a look
+                    at my LinkedIn, my GitHub, or to reach out via the Contact page! 
+                </p>
+                <p>
+                    (Or, if you prefer to email me directly, you can find me at bjomcshane@gmail.com)
+                </p>
             </div>
 
             <div className='stage-cube-cont'>
