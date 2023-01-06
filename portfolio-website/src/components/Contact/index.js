@@ -11,12 +11,25 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
+        console.log(refForm.current)
     
         emailjs.sendForm(
-            'gmail',
-            'bjomcshane@gmail.com',
+            'service_xk92knd',
+            'template_0hqrcdj',
             refForm.current,
-            ''
+            'kquHycYihdOqWvgmM'
+        )
+        .then(
+            (result) => {
+                alert("Message successfully sent!")
+                console.log(result)
+                window.location.reload(false)
+            },
+            (error) => {
+                console.log(error)
+                alert("Failed to send the message, try again")
+                
+            }
         )
     }
 
