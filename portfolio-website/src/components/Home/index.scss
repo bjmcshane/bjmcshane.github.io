@@ -79,4 +79,20 @@
             color: #333
         }
     }
+
+
+
+    .resumeImg {
+        top: 25px;
+        left: 750px;
+        width: 400px;
+        float: right;
+        position: absolute;
+        opacity: 0;
+        animation: fadeInRight 2s 2s;
+        animation-fill-mode: forwards; 
+        clear: both;
+        border: 1px solid #ffd700; 
+        border-radius: 10px
+    }
 }
