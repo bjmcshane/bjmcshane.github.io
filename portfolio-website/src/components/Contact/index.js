@@ -2,6 +2,7 @@ import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import { useState, useRef } from 'react'
 import emailjs from '@emailjs/browser'
+import { MapContainer, TileLayer, Marker } from 'react-leaflet'
 
 const Contact = () => {
     // there's supposed to be code here for the hover effect, can't seem to get it to work
@@ -32,6 +33,9 @@ const Contact = () => {
             }
         )
     }
+                        // I am interested in freelance opporunities - especially on ambitious
+                        // or large projects. However, if you have any other requests or
+                        // questions, don't hesitate to contact me using below form either.
 
     return (
         <>
@@ -41,9 +45,7 @@ const Contact = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={strArr} idx={15}/>
                     </h1>
                     <p>
-                        I am interested in freelance opporunities - especially on ambitious
-                        or large projects. However, if you have any other requests or
-                        questions, don't hesitate to contact me using below form either.
+                        Feel free to reach out via the below EmailJS form!
                     </p>
                     <div className='contact-form'>
                         <form ref={refForm} onSubmit={sendEmail}>
@@ -66,6 +68,22 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                </div>
+                <div className='info-map'>
+                    Brendan McShane,
+                    <br />
+                    3144 Highway Ave
+                    <br />
+                    Highland, IN 46322
+                    <br />
+                    <span>bjomcshane@gmail.com</span>
+                </div>
+                <div className="map-wrap">
+                    <MapContainer center={[41.555290, -87.452400]} zoom={13}>
+                        <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"/>   
+                        <Marker position={[41.555290, -87.452400]}>
+                        </Marker>
+                    </MapContainer>
                 </div>
             </div>
         </>

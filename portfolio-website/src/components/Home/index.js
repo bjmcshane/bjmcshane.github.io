@@ -24,6 +24,7 @@ const Home = () => {
                     // <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
             // <Logo />
     
+            // <img src={ResumeImg} alt="resume.png" className="resumeImg"/>
 
     return (
         <div className="container home-page">
@@ -38,10 +39,9 @@ const Home = () => {
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
                 </h1> 
-                <h2>Data Scientist / JavaScript Expert / Recent Graduate </h2>
+                <h2>Data Scientist / ML Expert / Recent Graduate </h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
-            <img src={ResumeImg} alt="resume.png" className="resumeImg"/>
         </div>
     )
 }
