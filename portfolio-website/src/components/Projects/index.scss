@@ -1,0 +1,35 @@
+.project-list {
+    width: 100px;
+    margin-top: 260px;
+    margin-left: -50px;
+
+    ul {
+        padding: 0;
+        margin: 0;
+
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-top: 20px;
+
+            a {
+                color: #fff;
+                position: relative;
+                font-size: 22px;
+                text-decoration: none;
+
+                &:hover {
+                    color: #ffd700;
+                    text-decoration: underline;
+                }
+            }
+
+            p {
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+}
