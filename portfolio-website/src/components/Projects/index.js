@@ -15,19 +15,19 @@ const Projects = () => {
                 <div className='project-list'>
                     <ul>
                         <li>
-                            <NavLink exact="true" to="/projects/supernova">
+                            <NavLink exact="true" to="/supernova">
                                 Supernova Detector
                             </NavLink>
                             <p>A PCA dimensionality reduction and ML approach to image classification </p>
                         </li>
                         <li>
-                            <NavLink exact="true" to="/projects/stocks">
+                            <NavLink exact="true" to="/stocks">
                                 Stock Forecasting
                             </NavLink>
                             <p>Stock forecasting with machine learning and backtesting </p>
                         </li>
                         <li>
-                            <NavLink exact="true" to="/projects/BookInTime">
+                            <NavLink exact="true" to="BookInTime">
                                 BookInTime
                             </NavLink>
                             <p>A movie booking website developed with Agile methodologies</p>

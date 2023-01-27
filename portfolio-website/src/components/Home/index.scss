@@ -82,17 +82,20 @@
 
 
 
-    .resumeImg {
-        top: 25px;
-        left: 750px;
-        width: 400px;
-        float: right;
+    .headshotImg {
         position: absolute;
-        opacity: 0;
-        animation: fadeInRight 2s 2s;
+        top: 15%;
+        right: 10%;
+        bottom: auto;
+        left: auto;
+        margin: auto;
+        width: 400px;
+
+        animation: rollIn 2s 2s;
         animation-fill-mode: forwards; 
         clear: both;
+        opacity: 0;
         border: 1px solid #ffd700; 
-        border-radius: 10px
+        border-radius: 50%;
     }
 }

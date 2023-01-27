@@ -1,5 +1,8 @@
 import LogoTitle from '../../assets/images/logo-s.png'
 import ResumeImg from '../../assets/images/resume.png'
+import HeadshotImg from '../../assets/images/professional_headshots/seated_hands_circle.jpg'
+
+
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
 import Logo from './Logo'
@@ -24,7 +27,6 @@ const Home = () => {
                     // <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
             // <Logo />
     
-            // <img src={ResumeImg} alt="resume.png" className="resumeImg"/>
 
     return (
         <div className="container home-page">
@@ -42,6 +44,7 @@ const Home = () => {
                 <h2>Data Scientist / ML Expert / Recent Graduate </h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
+            <img src={HeadshotImg} alt="headshot.png" className="headshotImg"/>
         </div>
     )
 }
