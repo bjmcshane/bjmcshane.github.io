@@ -6,6 +6,7 @@ const Supernova = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
     const aboutArr = 'Supernova Detector'.split('')
 
+
     return (
         <div className="container supernova-page">
             <div className='text-zone'>
@@ -18,7 +19,22 @@ const Supernova = () => {
                     exploration, one way or another.
                 </p>
                 <p>
-
+                    In this project, I applied a variety of classical machine learning techniques to clasify grayscale
+                    images of the night sky as either containing a supernova, or not. I extracted data from the Popular
+                    Supernova Project's database, cropped the images to 51x51 pixels, and went to work building algorithms
+                    to determine whether or not these images contained a supernova.
+                </p>
+                <p>
+                    The first step to this process was the data engineering. Tens of thousands of rows with 51x51 pixel values was
+                    simply too much data for any classical machine learning model to handle effectively. I needed to cut down on the
+                    number of variables, and to do so I implemented Principal Component Analysis (PCA) alongside other techniques. This
+                    is a method of dimensionality reduction that retains much of the information from the original dataset. The best bang per
+                    buck with respect to the number of columns we'd be using with this approach was 11.
+                </p>
+                <p>
+                    From there, I developed and optimized 5 different machine learning algorithms for classification. These models
+                    included a k-nearest neighbors classifier, logistic regression, a support vector machine, an artificial neural network
+                    and an ensemble random forest. 
                 </p>
             </div>
         </div>
