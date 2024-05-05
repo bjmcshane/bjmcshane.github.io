@@ -25,11 +25,16 @@ const About = () => {
                     <AnimatedLetters letterClass={letterClass} strArray={aboutArr} idx={15} />
                 </h1>
                 <p>
-                    My name's Brendan McShane, I'm a recent graduate from Indiana University, where I've
+                    My name's Brendan McShane, I'm a Data Scientist for Ford Motor Compay and a semi-recent graduate from Indiana University, where I 
                     received both my Bachelor's and Master's degrees in Computer Science. 
                 </p>
                 <p>
-                    A primary focus of mine during my tenure at IU was machine learning and artificial intelligence.
+                    I'm currently a fulltime Ford Data Scientist working on projects or freelance work in my free time. I've gained a lot of expereince in data
+                    analysis, software engineering best practices, python, git, docker, and much more. I've become a wizz and both the command line and the various
+                    python debuggers, I've sharpened my API developmnent skills, and I've developed many great working relationships with my coworkers along the way.
+                </p>
+                <p>
+                    When I was in school, my primary focus was machine learning and artificial intelligence.
                     I've coded neural networks from scratch, designed CNNs to diagnose COVID-19 in CT scans, developed
                     time series predictions to predict next day stock prices, and much more. During my studies, I also picked
                     up enough web development skills to enable me to code this website from scratch, and hey, I think it looks
