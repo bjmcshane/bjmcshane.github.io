@@ -1,3 +1,15 @@
+# TODO
+- update Home, About pages
+- add pictures/images to projects, update projects pages, god forbid do a new one
+- fix email functionality
+- update color scheme?
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
