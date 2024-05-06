@@ -1,0 +1,19 @@
+
+.supernova-page {
+    .supernovaImg {
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        bottom: auto;
+        left: auto;
+        margin: auto;
+        width: 400px;
+
+        animation: rollIn 2s 2s;
+        animation-fill-mode: forwards; 
+        clear: both;
+        opacity: 0;
+        border: 1px solid #ffd700; 
+        border-radius: 50%;
+    }
+}

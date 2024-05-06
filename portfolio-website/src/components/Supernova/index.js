@@ -1,6 +1,8 @@
 import './index'
 import AnimatedLetters from '../AnimatedLetters'
 import React, { useState } from 'react'
+import HeadshotImg from '../../assets/images/Supernova.png'
+
 
 const Supernova = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -37,6 +39,7 @@ const Supernova = () => {
                     and an ensemble random forest. 
                 </p>
             </div>
+            <img src={HeadshotImg} alt='supernova.jpg' className="supernovaImg" />
         </div>
     )
 }
