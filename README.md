@@ -9,6 +9,7 @@ TODO:
 - add pictures/images to projects, update projects pages, god forbid do a new one
 - fix email functionality
 - fix map size on contact me page
+- want things to look good on both my monitors
 
 Current bug list:
 - can't use the Helvetica Neue font face for some unknown reason. Some weird import bug that I thought was due to pathing but apparently doesn't impact the other two font faces. Something to do with ttf?

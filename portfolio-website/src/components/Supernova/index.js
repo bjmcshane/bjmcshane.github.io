@@ -1,7 +1,7 @@
-import './index'
+import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import React, { useState } from 'react'
-import HeadshotImg from '../../assets/images/Supernova.png'
+import NovaImg from '../../assets/images/Supernova.png'
 
 
 const Supernova = () => {
@@ -36,10 +36,10 @@ const Supernova = () => {
                 <p>
                     From there, I developed and optimized 5 different machine learning algorithms for classification. These models
                     included a k-nearest neighbors classifier, logistic regression, a support vector machine, an artificial neural network
-                    and an ensemble random forest. 
+                    and an ensemble random forest. Anyways, code can be found <a href="https://github.com/bjmcshane/supernova_detector/tree/main">here</a>
                 </p>
             </div>
-            <img src={HeadshotImg} alt='supernova.jpg' className="supernovaImg" />
+            <img src={NovaImg} alt='supernova.jpg' className="supernovaImg" />
         </div>
     )
 }
