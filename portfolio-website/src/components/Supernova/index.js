@@ -39,7 +39,6 @@ const Supernova = () => {
                     and an ensemble random forest. Anyways, code can be found <a href="https://github.com/bjmcshane/supernova_detector/tree/main">here</a>
                 </p>
             </div>
-            <img src={NovaImg} alt='supernova.jpg' className="supernovaImg" />
         </div>
     )
 }

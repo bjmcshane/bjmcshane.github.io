@@ -10,7 +10,7 @@ const Stocks = () => {
 
 
     return (
-        <div className="container supernova-page">
+        <div className="container stocks-page">
             <div className='text-zone'>
                 <h1>
                     <AnimatedLetters letterClass={letterClass} strArray={aboutArr} idx={15} />
@@ -29,12 +29,11 @@ const Stocks = () => {
                 <p>
                     My primary role on this project was to assist in the design of the above models, and to develop another benchmark utilizing a python package to implement
                     simpler mathematical forms of prediction. Think simple and exponential moving averages, bollinger bands, relative strength index, etc. Our results didn't end
-                    up making us millionaires, but we learned a lot about data sceince and the stock market (and also got an A). Code can be found  
-                    <a href="https://github.com/bjmcshane/stock_forecasting/tree/main">here</a>
+                    up making us millionaires, but we learned a lot about data sceince and the stock market (and also got an A). Code can be found 
+                     <a href="https://github.com/bjmcshane/stock_forecasting/tree/main">here</a>
 
                 </p>
             </div>
-            <img src={NovaImg} alt='supernova.jpg' className="supernovaImg" />
         </div>
     )
 }
