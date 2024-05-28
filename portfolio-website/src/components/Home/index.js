@@ -41,7 +41,7 @@ const Home = () => {
                     <br />
                     <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/>
                 </h1> 
-                <h2>Data Scientist / ML Expert / Recent Graduate </h2>
+                <h2>Ford Motor Company Data Scientist</h2>
                 <Link to='/contact' className='flat-button'>CONTACT ME</Link>
             </div>
             <img src={HeadshotImg} alt="headshot.png" className="headshotImg"/>

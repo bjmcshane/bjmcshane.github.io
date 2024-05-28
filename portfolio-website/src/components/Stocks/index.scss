@@ -2,6 +2,9 @@
 .supernova-page {
     .textZone{
         top: auto;
+        .h1{
+            width: 5000px;
+        }
     }
     .supernovaImg {
         position: absolute;
@@ -13,12 +16,12 @@
         width: 200px;
 
         /*
-        animation: slideUp 2s 2s;
-        animation-fill-mode: forwards; 
+        //animation: rollIn 2s 2s;
+        //animation-fill-mode: forwards; 
         clear: both;
         opacity: 0;
-        */
         border: 1px solid #ffd700; 
         border-radius: 50%;
+        */
     }
 }

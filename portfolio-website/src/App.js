@@ -6,6 +6,8 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Supernova from './components/Supernova'
+import Stocks from './components/Stocks'
+import GaussianProcess from './components/GP'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
         <Route path='contact' element={<Contact />}/>
         <Route path='projects' element={<Projects />}/>
         <Route path='supernova' element={<Supernova />}/>
+        <Route path='stocks' element={<Stocks />}/>
+        <Route path='gaussian' element={<GaussianProcess />}/>
       </Route>
     </Routes>
     </>
